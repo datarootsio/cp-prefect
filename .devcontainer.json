@@ -1,0 +1,7 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/python:3.10",
+    "features": {
+    },
+    "postCreateCommand": "pipx install ruff",
+    "postStartCommand": "pip install -r requirements.txt"
+  }
